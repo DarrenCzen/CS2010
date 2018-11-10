@@ -14,7 +14,7 @@ class Supermarket {
                        // one point to another point in seconds
 
     // --------------------------------------------
-    private boolean[] visited = new boolean[16];
+    private boolean[] visited;
     private static int INF = Integer.MAX_VALUE;
     private int minCost;
     private ArrayList<Integer> path;
@@ -28,7 +28,7 @@ class Supermarket {
         // since Prof. Chong Ket Fah enters the supermarket (vertex 0),
         // completes the task of buying K items in that supermarket,
         // then reaches the cashier of the supermarket (back to vertex 0).
-
+        visited = new boolean[N];
         Arrays.fill(visited, false);
         path = new ArrayList<Integer>();
         minCost = INF;
@@ -51,10 +51,8 @@ class Supermarket {
 
         // all V vertices have been visited, compute tour cost
         if (all_visited) {
-
-            int cost = 0; // cost of tour
-
-            // Write you code to compute tour cost here !
+            int cost = 0;
+            
             for (int i = path.size() - 1; i >= 1; i--) {
                 cost += T[path.get(i)][path.get(i - 1)];
             }
