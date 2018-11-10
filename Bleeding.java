@@ -1,8 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// write your matric number here: A0155600R
-// write your name here: Darren Chin Jhun Pyng
 // write list of collaborators here:
 // year 2018 hash code: psJ6yCZMN7uwQv79EtpQ (do NOT delete this line)
 
