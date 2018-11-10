@@ -1,9 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// write your matric number here: A0155600R
-// write your name here: Darren Chin
-
 // write list of collaborators here: 
 // Henry Ang Tien Hock, for recommending linked list as a better option over priority queue for subtask A.
 
