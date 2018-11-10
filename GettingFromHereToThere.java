@@ -1,8 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// write your matric number here: A0155600R
-// write your name here: Darren Chin Jhun Pyng
 // write list of collaborators here: CS2010 Notes, MiniMax algorithm on CP3 Pg 143, 159 (Floyd Warshall)
 // year 2018 hash code: c3HL7hbuMVasJh2TEnnf (do NOT delete this line) <-- change this
 
