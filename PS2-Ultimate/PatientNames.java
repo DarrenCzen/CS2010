@@ -1,8 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// write your matric number here: A0155600R
-// write your name here: Darren Chin Jhun Pyng
 // write list of collaborators here: CS2010 BST Demo and CS2010 Notes for Rotation Pseudo Code Algorithm.
 //                                  https://algs4.cs.princeton.edu/32bst/ for allowing me to further understand
 //                                  of how rank and subset works
