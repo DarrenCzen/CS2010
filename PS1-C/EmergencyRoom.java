@@ -1,9 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// write your matric number here: A0155600R
-// write your name here: Darren Chin
-
 // write list of collaborators here:
 // While discovering and understanding algorithm of how to extract an element from priority queue with its property
 // The three websites referenced below help me to understand that a treeset might be more helpful in extracting 
